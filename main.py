@@ -29,7 +29,7 @@ guess = []
 
 while len(guess) < 11:
     user_guess = screen.textinput(
-        title=f"{len(guess)}/50 Guess the Province", prompt="Enter a guess").title()
+        title=f"{len(guess)}/11 Guess the Province", prompt="Enter a guess").title()
 
     if user_guess == "Exit":
         missing_province = []
